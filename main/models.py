@@ -7,8 +7,7 @@ from django.db import models
 class News(models.Model):
     title = models.CharField(max_length=500)
     content = models.TextField()
-    created = models.DateTimeField(auto_now_add=True)
-    published = models.DateTimeField()
+    published = models.DateTimeField(auto_now_add=True)
 
     class Meta:
         verbose_name_plural = 'News'

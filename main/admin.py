@@ -6,6 +6,6 @@ from .models import News
 
 @admin.register(News)
 class NewsAdmin(admin.ModelAdmin):
-    list_display = ['id', 'title', 'content', 'created', 'published']
+    list_display = ['id', 'title', 'content',  'published']
     list_filter = ('id',)
     search_fields = ('title',)
