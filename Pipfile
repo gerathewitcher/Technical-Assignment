@@ -7,6 +7,12 @@ name = "pypi"
 django = "*"
 django-shortcuts = "*"
 djangorestframework = "*"
+celery = "*"
+django-celery-beat = "*"
+redis = "*"
+vine = "*"
+django-celery-results = "*"
+requests = "*"
 
 [dev-packages]
 
